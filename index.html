@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Book - Get Your New Book Collections</title>
+  <meta name="title" content="Book - Get Your New Book Collections">
+  <meta name="description" content="This is a Book eCommerce html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&family=Work+Sans:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+  <link rel="preload" as="image" href="./assets/images/hero-bg.jpg">
+
+</head>
+
+<body id="top">
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="header-top">
+      <div class="container">
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.svg" width="138" height="28" alt="book home">
+        </a>
+
+        <div class="header-bottom" data-navbar>
+          <div class="container">
+
+            <nav class="navbar">
+
+              <button class="nav-close-btn" data-nav-toggler aria-label="clsoe menu" title="Clsoe Menu">
+                <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+              </button>
+
+              <div class="navbar-top">
+                <input type="search" name="search" placeholder="Search our store" class="input-field">
+
+                <button class="search-btn" aria-label="Search">
+                  <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+                </button>
+              </div>
+
+              <ul class="navbar-list">
+
+                <li>
+                  <a href="#" class="navbar-link">Home</a>
+                </li>
+
+                <li>
+                  <a href="#" class="navbar-link">Blog</a>
+                </li>
+
+                <li>
+                  <a href="#" class="navbar-link">Shop</a>
+                </li>
+
+                <li>
+                  <a href="#" class="navbar-link">About Us</a>
+                </li>
+
+                <li>
+                  <a href="#" class="navbar-link">Contact</a>
+                </li>
+
+              </ul>
+
+            </nav>
+
+
+
+          </div>
+        </div>
+
+        <div class="header-action">
+          <button class="nav-open-btn" aria-label="open menu" title="Open Menu" data-nav-toggler>
+            <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+          <button class="header-action-btn" aria-label="user" title="User">
+            <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+        </div>
+
+      </div>
+    </div>
+
+
+
+    <div class="overlay" data-overlay data-nav-toggler></div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero has-bg-image" aria-label="home"
+        style="background-image: url('./assets/images/hero-bg.jpg')">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title has-after">
+              Get Your New <br>
+              Book Collections
+            </h1>
+
+            <p class="hero-text">
+              There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+              in some formr.
+            </p>
+
+            <div class="btn-wrapper">
+
+              <a href="#" class="btn">
+                <span class="span">Explore More</span>
+
+                <ion-icon name="cart" aria-hidden="true"></ion-icon>
+              </a>
+
+              <button class="play-btn" aria-label="play video">
+                <ion-icon name="play-outline" aria-hidden="true"></ion-icon>
+              </button>
+
+            </div>
+
+          </div>
+
+          <figure class="hero-banner">
+            <img src="./assets/images/hero-banner.png" width="475" height="600" alt="hero banner" class="w-100">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURE
+      -->
+
+
+
+
+
+
+      <!-- 
+        - #FEATURED COLLECTION
+      -->
+
+      <section class="section featured" aria-label="featured collection">
+        <div class="container">
+
+          <h2 class="h2 section-title">Featured Collections</h2>
+
+          <p class="section-text">
+            Contrary to popular belief, Lorem Ipsum is not simply random.
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="product-card">
+                <span class="card-badge">New</span>
+                <div class="card-banner img-holder" style="--width: 384; --height: 480;">
+                  <img src="./assets/images/book-1.png"
+                    onclick="openForm('./assets/images/book-1.png', 'Black Night', 'Book description goes here', 'https://www.amazon.in/Black-Knight-Royal-Elite-Book-ebook/dp/B083ZQMZHK')"
+                    width="384" height="480" loading="lazy" alt="Black Night" class="img-cover">
+                </div>
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Black Night</a>
+                  </h3>
+                  <data class="card-price" value="80">$80.00</data>
+                  <div class="rating-wrapper">
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+
+            <li>
+              <div class="product-card">
+                <div class="card-banner img-holder" style="--width: 384; --height: 480;">
+                  <img src="./assets/images/book-2.png"
+                    onclick="openForm('./assets/images/book-2.png', 'About The First Night', 'Book description goes here', 'https://www.amazon.com/First-Night-Harriet-Ziefert/dp/039923120X')"
+                    width="384" height="480" loading="lazy" alt="About The First Night" class="img-cover">
+                </div>
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">About The First Night</a>
+                  </h3>
+                  <data class="card-price" value="19">$19.00</data>
+                  <div class="rating-wrapper">
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+
+            <li>
+              <div class="product-card">
+                <div class="card-banner img-holder" style="--width: 384; --height: 480;">
+                  <img src="./assets/images/book-3.png"
+                    onclick="openForm('./assets/images/book-3.png', 'Open The Sky', 'Book description goes here', 'https://www.amazon.com/Open-Sky-Mark-Winheld/dp/1612154263')"
+                    width="384" height="480" loading="lazy" alt="Open The Sky" class="img-cover">
+                </div>
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Open The Sky</a>
+                  </h3>
+                  <data class="card-price" value="80">$80.00</data>
+                  <div class="rating-wrapper">
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+
+            <li>
+              <div class="product-card">
+                <div class="card-banner img-holder" style="--width: 384; --height: 480;">
+                  <img src="./assets/images/book-4.png"
+                    onclick="openForm('./assets/images/book-4.png', 'Book Hard Cover', 'Book description goes here', 'https://www.amazon.in/Ikigai-H%C3%A9ctor-Garc%C3%ADa/dp/178633089X/ref=sr_1_4?qid=1689681372&refinements=p_n_binding_browse-bin%3A1318375031&s=books&sr=1-4')"
+                    width="384" height="480" loading="lazy" alt="Book Hard Cover" class="img-cover">
+                </div>
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Book Hard Cover</a>
+                  </h3>
+                  <data class="card-price" value="55">$55.00</data>
+                  <div class="rating-wrapper">
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+
+            <li>
+              <div class="product-card">
+                <div class="card-banner img-holder" style="--width: 384; --height: 480;">
+                  <img src="./assets/images/book-5.png"
+                    onclick="openForm('./assets/images/book-5.png', 'The Big Book Of Science', 'Book description goes here', 'https://www.amazon.in/Big-Book-Science-Figures-Theories/dp/0785835997')"
+                    width="384" height="480" loading="lazy" alt="The Big Book Of Science" class="img-cover">
+                </div>
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">The Big Book Of Science</a>
+                  </h3>
+                  <data class="card-price" value="100">$100.00</data>
+                  <div class="rating-wrapper">
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+
+            <li>
+              <div class="product-card">
+                <div class="card-banner img-holder" style="--width: 384; --height: 480;">
+                  <img src="./assets/images/book-6.png"
+                    onclick="openForm('./assets/images/book-6.png', 'By The Air', 'Book description goes here', 'https://www.amazon.in/Book-Air-Joe-Treasure/dp/1911525093')"
+                    width="384" height="480" loading="lazy" alt="By The Air" class="img-cover">
+                </div>
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">By The Air</a>
+                  </h3>
+                  <data class="card-price" value="89">$89.00</data>
+                  <div class="rating-wrapper">
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+
+            <li>
+              <div class="product-card">
+                <div class="card-banner img-holder" style="--width: 384; --height: 480;">
+                  <img src="./assets/images/book-7.png"
+                    onclick="openForm('./assets/images/book-7.png', 'Murdering Last Year', 'Book description goes here', 'https://www.amazon.in/Homicide-Killing-Streets-David-Simon/dp/0805080759')"
+                    width="384" height="480" loading="lazy" alt="Murdering Last Year" class="img-cover">
+                </div>
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Murdering Last Year</a>
+                  </h3>
+                  <data class="card-price" value="34">$34.00</data>
+                  <div class="rating-wrapper">
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+                <div class="card-banner img-holder" style="--width: 384; --height: 480;">
+                  <img src="./assets/images/book-8.png"
+                    onclick="openForm('./assets/images/book-8.png', 'Stay Healthy', 'Book description goes here', 'https://www.amazon.com/Stay-Healthy-supplying-whats-missing/dp/0987661981')"
+                    width="384" height="480" loading="lazy" alt="Stay Healthy" class="img-cover">
+                </div>
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Stay Healthy</a>
+                  </h3>
+                  <data class="card-price" value="67">$67.00</data>
+                  <div class="rating-wrapper">
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+
+          </ul>
+
+        </div>
+      </section>
+
+
+      <!-- 
+        - #POPULAR
+      -->
+
+      <section class="section popular" aria-label="popular collection">
+        <div class="container">
+
+          <h2 class="h2 section-title">Popular Collections</h2>
+
+          <p class="section-text">
+            Contrary to popular belief, Lorem Ipsum is not simply random.
+          </p>
+
+          <ul class="filter-list">
+
+            <li>
+              <button class="filter-btn" data-filter-btn="featured">Featured Products</button>
+            </li>
+
+            <li>
+              <button class="filter-btn" data-filter-btn="new">New Products</button>
+            </li>
+
+            <li>
+              <button class="filter-btn" data-filter-btn="sell">Upsell Prodcuts</button>
+            </li>
+
+          </ul>
+
+          <ul class="product-list has-scrollbar">
+
+            <li class="scrollbar-item" data-filter="sell">
+              <div class="product-card">
+                <div class="card-banner img-holder" style="--width: 384; --height: 480;">
+                  <img src="./assets/images/book-9.png"
+                    onclick="openForm('./assets/images/book-9.png', 'Self Care', 'Book description goes here', 'https://www.amazon.in/Little-Book-Self-Care-Refresh-Rejuvenate/dp/1507204914')"
+                    width="384" height="480" loading="lazy" alt="Self Care" class="img-cover">
+                </div>
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Self Care</a>
+                  </h3>
+                  <data class="card-price" value="34">$34.00</data>
+                  <div class="rating-wrapper">
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="scrollbar-item" data-filter="new">
+              <div class="product-card">
+                <div class="card-banner img-holder" style="--width: 384; --height: 480;">
+                  <img src="./assets/images/book-10.png"
+                    onclick="openForm('./assets/images/book-10.png', 'Welcome to Space', 'Book description goes here', 'https://www.amazon.in/Welcome-Universe-Neil-Degrasse-Tyson/dp/0691157243')"
+                    width="384" height="480" loading="lazy" alt="Welcome to Space" class="img-cover">
+                </div>
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Welcome to Space</a>
+                  </h3>
+                  <data class="card-price" value="150">$150.00</data>
+                  <div class="rating-wrapper">
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="scrollbar-item" data-filter="sell">
+              <div class="product-card">
+                <div class="card-banner img-holder" style="--width: 384; --height: 480;">
+                  <img src="./assets/images/book-11.png"
+                    onclick="openForm('./assets/images/book-11.png', 'Monsoon', 'Book description goes here', 'https://www.amazon.in/Monsoon-Indian-Ocean-Future-American/dp/0812979206')"
+                    width="384" height="480" loading="lazy" alt="Monsoon" class="img-cover">
+                </div>
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Monsoon</a>
+                  </h3>
+                  <data class="card-price" value="23">$23.00</data>
+                  <div class="rating-wrapper">
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="scrollbar-item" data-filter="featured">
+              <div class="product-card">
+                <div class="card-banner img-holder" style="--width: 384; --height: 480;">
+                  <img src="./assets/images/book-12.png"
+                    onclick="openForm('./assets/images/book-12.png', 'Every Thing You Ever', 'Book description goes here', 'https://www.amazon.in/Everything-Ever-Wanted-Luiza-Sauma-ebook/dp/B07JN95L36')"
+                    width="384" height="480" loading="lazy" alt="Every Thing You Ever" class="img-cover">
+                </div>
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Every Thing You Ever</a>
+                  </h3>
+                  <data class="card-price" value="57">$57.00</data>
+                  <div class="rating-wrapper">
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="scrollbar-item" data-filter="new">
+              <div class="product-card">
+                <div class="card-banner img-holder" style="--width: 384; --height: 480;">
+                  <img src="./assets/images/book-13.png"
+                    onclick="openForm('./assets/images/book-13.png', 'Graphic Design School', 'Book description goes here', 'https://www.amazon.in/Graphic-Design-School-Foundation-Designers/dp/0500291438')"
+                    width="384" height="480" loading="lazy" alt="Graphic Design School" class="img-cover">
+                </div>
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Graphic Design School</a>
+                  </h3>
+                  <data class="card-price" value="100">$100.00</data>
+                  <div class="rating-wrapper">
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="scrollbar-item" data-filter="sell">
+              <div class="product-card">
+                <div class="card-banner img-holder" style="--width: 384; --height: 480;">
+                  <img src="./assets/images/book-14.png"
+                    onclick="openForm('./assets/images/book-14.png', 'Food Poison', 'Book description goes here', 'https://www.amazon.in/Hobbs-Food-Poisoning-Hygiene-Seventh/dp/0340905301')"
+                    width="384" height="480" loading="lazy" alt="Food Poison" class="img-cover">
+                </div>
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Food Poison</a>
+                  </h3>
+                  <data class="card-price" value="76">$76.00</data>
+                  <div class="rating-wrapper">
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="scrollbar-item" data-filter="featured">
+              <div class="product-card">
+                <div class="card-banner img-holder" style="--width: 384; --height: 480;">
+                  <img src="./assets/images/book-15.png"
+                    onclick="openForm('./assets/images/book-15.png', 'Design', 'Book description goes here', 'https://www.amazon.in/Patternmaking-Fashion-Design-5e-Armstrong/dp/9332518114?ref_=Oct_d_omwf_d_4149483031_0&pd_rd_w=caQoD&content-id=amzn1.sym.1088dc92-c840-44be-9433-893d4ea0f5ba&pf_rd_p=1088dc92-c840-44be-9433-893d4ea0f5ba&pf_rd_r=6F575K4GBQ4DTV4KJV81&pd_rd_wg=sbpiw&pd_rd_r=89ccb115-e861-442b-91b7-102e4993c587&pd_rd_i=9332518114')"
+                    width="384" height="480" loading="lazy" alt="Design" class="img-cover">
+                </div>
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Design</a>
+                  </h3>
+                  <data class="card-price">Free</data>
+                  <div class="rating-wrapper">
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="scrollbar-item" data-filter="new">
+              <div class="product-card">
+                <div class="card-banner img-holder" style="--width: 384; --height: 480;">
+                  <img src="./assets/images/book-16.png"
+                    onclick="openForm('./assets/images/book-16.png', 'World News', 'Book description goes here', 'https://www.amazon.in/News-World-Novel-Paulette-Jiles/dp/0062409204')"
+                    width="384" height="480" loading="lazy" alt="World News" class="img-cover">
+                </div>
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">World News</a>
+                  </h3>
+                  <data class="card-price" value="20">$20.00</data>
+                  <div class="rating-wrapper">
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer has-bg-image" style="background-image: url('./assets/images/section-bg.jpg')">
+
+    <div class="footer-top section">
+      <div class="container grid-list">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.svg" width="138" height="28" alt="book home">
+          </a>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-pinterest"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Corporate</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Careers</a>
+          </li>
+
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Information</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Online Store</a>
+          </li>
+
+
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Services</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Grooming</a>
+          </li>
+
+
+
+        </ul>
+
+      </div>
+    </div>
+    >
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+  <div class="form-popup" id="myForm">
+    <form class="form-container">
+      <div>
+        <img id="bookCover" src="" alt="Book Cover" style="width: 200px;">
+      </div>
+      <div>
+        <h2 id="bookTitle" style="color: black;"></h2>
+        <p id="bookDescription" style="color: black;"></p>
+        <p style="color: black;">
+          Purchase the book <a id="bookLink" href="#">here</a>.
+        </p>
+      </div>
+      <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+    </form>
+  </div>
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script>
+    function openForm(bookCoverUrl, bookTitle, bookDescription, bookLink) {
+      document.getElementById("bookCover").src = bookCoverUrl;
+      document.getElementById("bookTitle").innerText = bookTitle;
+      document.getElementById("bookDescription").innerText = bookDescription;
+      document.getElementById("bookLink").href = bookLink;
+      document.getElementById("myForm").style.display = "block";
+    }
+
+    function closeForm() {
+      document.getElementById("myForm").style.display = "none";
+    }
+  </script>
+</body>
+
+</html>
