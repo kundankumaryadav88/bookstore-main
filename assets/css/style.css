@@ -1300,6 +1300,14 @@ border-radius: 5pc;
   opacity: 1;
 }
 
+
+#bookLink {
+  color: blue;
+}
+
+#bookLink:hover {
+  color: green; /* Change this to the desired color on hover */
+}
 /* Media query for responsive design */
 @media (max-width: 600px) {
   .form-popup {
